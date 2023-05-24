@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="oe-kirkstone"/>
+
+  <remote fetch="https://github.com/openembedded" name="oe-core"/>
+  <remote fetch="https://github.com/schnitzeltony" name="mortsgna"/>
+  <remote fetch="https://github.com/linux-sunxi" name="meta-sunxi"/>
+  <remote fetch="https://github.com/agherzan" name="agherzan"/>
+  <remote fetch="https://github.com/myfreescalewebpage" name="mfsl"/>
+  <remote fetch="https://github.com/sarnold" name="sla"/>
+  <remote fetch="https://github.com/VCTLabs" name="vct"/>
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
+
+  <project remote="oe-core" revision="kirkstone" name="openembedded-core" path="oe-core"/>
+  <project remote="mortsgna" revision="kirkstone" name="meta-mortsgna" path="oe-core/meta-mortsgna"/>
+  <project remote="oe-core" revision="kirkstone" name="meta-openembedded" path="oe-core/meta-openembedded"/>
+  <project remote="oe-core" revision="2.0.0" name="bitbake" path="oe-core/bitbake"/>
+
+  <project remote="agherzan" revision="kirkstone" name="meta-raspberrypi" path="oe-core/meta-raspberrypi"/>
+  <project remote="mfsl" revision="master" name="meta-chip" path="oe-core/meta-chip"/>
+  <project remote="meta-sunxi" revision="kirkstone" name="meta-sunxi" path="oe-core/meta-sunxi"/>
+  <project remote="meta-qt5" revision="kirkstone" name="meta-qt5" path="oe-core/meta-qt5"/>
+  <project remote="mortsgna" revision="master" name="meta-qt5-extra" path="oe-core/meta-qt5-extra"/>
+  <project remote="mortsgna" revision="master" name="meta-gnome-forks" path="oe-core/meta-gnome-forks"/>
+  <project remote="sla" revision="kirkstone" name="meta-small-arm-extra" path="oe-core/meta-small-arm-extra"/>
+
+</manifest>
+
